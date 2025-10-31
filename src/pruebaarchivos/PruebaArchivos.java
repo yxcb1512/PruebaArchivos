@@ -3,15 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pruebaarchivos;
-
+import QuizRegistroPersona.*;
 
 
 public class PruebaArchivos {
+    
+    QuizRegistroPersona quiz = new QuizRegistroPersona();
     public static void main(String[] args) {
         
-        //hola pruebaaa!!
+        quiz.re
         
-        System.out.println("Hola");
     }
     
 }
