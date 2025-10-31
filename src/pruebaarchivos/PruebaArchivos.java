@@ -8,10 +8,10 @@ import QuizRegistroPersona.*;
 
 public class PruebaArchivos {
     
-    QuizRegistroPersona quiz = new QuizRegistroPersona();
     public static void main(String[] args) {
         
-        quiz.re
+        QuizRegistroPersona quiz = new QuizRegistroPersona();
+        
         
     }
     
