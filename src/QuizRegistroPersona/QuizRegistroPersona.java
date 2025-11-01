@@ -79,11 +79,11 @@ public class QuizRegistroPersona {
 
     private void guardarRegistro() {
         LocalDateTime hora = LocalDateTime.now();
-        DateTimeFormatter formatoDeFecha = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        DateTimeFormatter formatoDeFecha = DateTimeFormatter.ofPattern("HH:mm yyyy-MM-dd");
         String fechaHora = hora.format(formatoDeFecha);
 
-        String lineaRegistro = "Nombre: "+nombreCompleto + "  |  "+ "Cédula: "+ id + "  |  "+"Edad: "+ edad +"  |  "
-                +"Correo Eléctronico: "+ correo + "  |  "+"Numero De Teléfono" + telefono + "  |  " +"Fecha y hora del registro: "+ fechaHora+"\n";
+        String lineaRegistro ="\n"+ "Nombre: "+nombreCompleto + "  |  "+ "Cédula: "+ id + "  |  "+"Edad: "+ edad +"  |  "
+                +"Correo Eléctronico: "+ correo + "  |  "+"Numero De Teléfono: " + telefono + "  |  " +"Fecha y hora del registro: "+ fechaHora;
 
         String salida = "Nombre: " + nombreCompleto + "\n"
                 + "Numero de cedula: " + id + "\n"
